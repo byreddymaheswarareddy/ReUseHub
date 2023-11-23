@@ -1,0 +1,55 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    z-index: 1000;
+}
+
+/* Custom CSS to move the list items to the right side */
+.navbar-nav.ml-auto .list {
+    margin-left: 20px; /* Adjust the margin as needed for spacing */
+}
+
+.navbar-page{
+    color: green;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+} */
+
+.notification-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.notification {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+.close-btn {
+    margin-left: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}

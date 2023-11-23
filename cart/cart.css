@@ -1,0 +1,41 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    z-index: 1000;
+}
+
+/* Custom CSS to move the list items to the right side */
+.navbar-nav.ml-auto .list {
+    margin-left: 20px; /* Adjust the margin as needed for spacing */
+}
+
+.navbar-page{
+    color: green;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+
+#cart {
+    padding: 20px;
+}
+
+.cart-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-item img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+#total {
+    text-align: center;
+}
+
+.product-section {
+    padding: 5% 5% 5% 5%;
+}

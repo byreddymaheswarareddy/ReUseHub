@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .form-container {
+    width: 300px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust the size as needed */
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 40%;
+    padding: 10px;
+    background-color: rgba(69, 87, 90, 0.992);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  .social-login p {
+    font-size: 14px;
+  }
+  
+  .social-login a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .login-form{
+    width: 30%;
+    height: 30%;
+  }

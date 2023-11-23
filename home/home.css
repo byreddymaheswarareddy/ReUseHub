@@ -1,0 +1,173 @@
+/* Custom CSS for the navigation bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: black;
+}
+
+/* Style for the profile picture in a circle */
+.profile-pic {
+    border-radius: 50%;
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+}
+.navbar-page{
+    color: green;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+
+/* Add media query for small screens to hide or display the login button */
+@media (max-width: 768px) {
+    #login-section {
+        display: none; /* Hide login section on small screens */
+    }
+    .navbar-toggler {
+        display: block; /* Display the menu button */
+    }
+}
+/* Custom CSS to move the list items to the right side */
+.navbar-nav.ml-auto .list {
+    margin-left: 20px; /* Adjust the margin as needed for spacing */
+}
+
+/* testimonials */
+.carousel-item{
+    padding:7% 15% ;
+}
+#testimonials{
+    position: relative;
+    padding:3% 7%;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.926) ;
+    color: rgb(0, 0, 0);
+    
+}
+
+.testimonial-img{
+    width: 15%;
+    border-radius:100%;
+    margin-top: 20px;
+}
+
+#press
+{
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.926) ;
+    color: rgb(0, 0, 0);
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+    padding: 7% 1;
+}
+
+/* Custom CSS to change button color and text color */
+.btn.btn-black {
+    background-color: rgb(255, 255, 255); /* Button background color */
+    color: rgb(0, 0, 0); /* Button text color */
+    border-color: black; /* Button border color */
+}
+
+.btn.btn-black.active {
+    background-color: rgb(0, 0, 0); /* Active button background color */
+    color: white; /* Active button text color */
+    border-color: black; /* Active button border color */
+}
+.btn.btn-black:hover {
+    background-color: green;
+}
+
+/* Custom CSS to style the product section with a fixed size and no left or right padding */
+.container.mt-5 {
+    background-color: black; /* Set the background color for the product section */
+    color: white; /* Set the text color */
+    padding: 3%; /* Remove padding from left and right */
+    max-width: 100%; /* Allow the container to extend to the edges of the screen */
+}
+
+.product-card {
+    background-color: white; /* Set the background color for the product cards */
+    border: 1px solid black; /* Set the border color */
+    color: black; /* Set the text color */
+    height: 300px; /* Set a fixed height for all cards */
+    width: 100%; /* Allow the cards to take the full width of the container */
+    margin: 0; /* Remove margin to ensure no spacing between cards */
+    
+}
+
+.product-card .card-title {
+    color: black; /* Set the title text color */
+}
+
+.product-card .btn-primary {
+    background-color: black; /* Set the button background color */
+    border: 1px solid black; /* Set the button border color */
+    color: white; /* Set the button text color */
+}
+
+
+/* Custom CSS for the footer */
+#footer{
+    padding:2% ;
+    text-align: center;
+    font-size: xx-small;
+    color: black;
+}
+
+footer {
+    background-color:black;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.social img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.mx-auto {
+    width: 50%;
+}
+ .seach{
+    font-size: 1px;
+ }
+
+ .padding-top-bottom{
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+ /* FEATURES SECTION */
+
+
+#features{
+    background-color: white;
+    position: relative;
+}
+.feature-box{
+    text-align: center;
+    padding: 7% 15%;
+    
+}
+.icon{
+    margin-bottom:1rem;
+    color:  rgba(0, 0, 0, 0.926);
+    
+}
+
+.icon:hover{
+    color:silver ;
+}
+
+.copyright{
+    background-color: white;
+    color: black;
+}

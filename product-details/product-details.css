@@ -1,0 +1,110 @@
+/* Custom CSS for the navigation bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    z-index: 1000;
+}
+
+/* Custom CSS to move the list items to the right side */
+.navbar-nav.ml-auto .list {
+    margin-left: 20px; /* Adjust the margin as needed for spacing */
+}
+
+.navbar-page{
+    color: green;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+/* product-details.css */
+
+.headline{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    padding-top: 2% ;
+    padding-bottom: 2% ;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.product-info {
+    float: middle;
+    width: 90%;
+    padding: 10%;
+}
+
+.product-info-div{
+    background-color: black;
+    color: white;
+}
+.product-images{
+    float: middle;
+    width: 80%;
+    height: 80%;
+    size: fixed;
+    image-rendering: auto;
+}
+
+.price {
+    font-size: 24px;
+    color: green;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color:rgb(255, 255, 255);
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+.buttons button:hover {
+    background-color:green;
+    color: white;
+}
+
+.product-description {
+    clear: both;
+    padding: 20px;
+}
+
+
+/* Set a fixed height for the carousel */
+#image-carousel {
+    max-height: 400px; /* Adjust the height as needed */
+}
+
+/* Center-align the carousel content */
+#image-carousel .carousel-inner {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the carousel takes up the full height */
+    background-color: white; /* Optional: Add a background color to the carousel */
+    padding: 20px; /* Add padding to the carousel container */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+/* Center-align the individual carousel items and apply zoom */
+#image-carousel .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 3s; /* Smoothly transition the zoom effect */
+}
+
+/* Apply zoom to the images */
+#image-carousel img {
+    max-width: 200%; /* Make the images responsive to the container width */
+    max-height: 200%; /* Make the images responsive to the container height */
+    transition: transform 0.5s; /* Smoothly transition the zoom effect */
+}
+
+/* Hover effect to zoom in on images */
+#image-carousel .carousel-item:hover img {
+    transform: scale(1.2); /* Adjust the zoom level as needed */
+}

@@ -1,0 +1,160 @@
+/* Custom CSS for the navigation bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    z-index: 1000;
+}
+
+/* Custom CSS to move the list items to the right side */
+.navbar-nav.ml-auto .list {
+    margin-left: 20px; /* Adjust the margin as needed for spacing */
+}
+
+.navbar-page{
+    color: green;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+
+#categories {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.category:hover{
+    background-color: black;
+    color: white;
+}
+
+.category img {
+    max-width: 80px;
+    height: auto;
+}
+
+.category p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+#categories {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.categories-details{
+    background-color: black;
+    color: white;
+}
+
+#category-content{
+    padding: 20px 20%;
+}
+.category-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category, .product {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.category img, .product img {
+    max-width: 80px;
+    height: auto;
+}
+
+.category p, .product p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Style for brand and product sections */
+#brands, #products, #product-details {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#brands h2, #products h2, #product-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for input fields and labels */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+   
+}
+
+input[type="text"], input[type="number"], input[type="checkbox"] {
+    width: 70%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the "Select a category/brand/product" default text */
+#brand-content p, #product-content p, #product-details p {
+    font-style: italic;
+}
+
+.button-container {
+    width: 100%; /* Set the width as needed */
+    text-align: center;
+    
+}
+
+#buttonsubmit {
+    margin: 0 auto; /* Set the left and right margin to "auto" */
+    display: block; /* Ensures the button is a block-level element */
+    
+}
+
