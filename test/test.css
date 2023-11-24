@@ -1,0 +1,43 @@
+
+#buyFormContainer {
+    /* display: none; */
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#buyFormContainer h3 {
+    color: limegreen;
+}
+
+#buyForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buyForm label {
+    margin-bottom: 10px;
+}
+
+#buyForm input,
+#buyForm select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+#buyForm button {
+    width: 100%;
+    background-color: limegreen;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#buyForm button:hover {
+    background-color: darkgreen;
+}
+

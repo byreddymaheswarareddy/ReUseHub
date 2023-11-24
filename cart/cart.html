@@ -84,5 +84,91 @@
         <h3>Total: $<span id="cartTotal">0.00</span></h3>
     </section>
 </div>
+
+<!-- buying section -->
+
+<section id="buy" class="container-fluid mt-4 text-center">
+    <button onclick="showBuyForm()" class="btn btn-success btn-lg">Buy Now</button>
+    <div class="row buy-form-container d-none" id="buyFormContainer">
+        <!-- User Information -->
+        <div class="col-md-4">
+            <h3>User Information</h3>
+            <form id="buyForm">
+                <!-- User Information Fields (e.g., Phone Number) -->
+                <div class="form-group">
+                    <label for="userPhoneNumber">User Phone Number</label>
+                    <input type="tel" class="form-control" id="userPhoneNumber" placeholder="User Phone Number" required>
+                </div>
+                <!-- Add more user information fields as needed -->
+                <div class="form-group">
+                    <label for="receiverPhoneNumber">Receiver's Phone Number:</label>
+                    <input type="text" class="form-control" id="receiverPhoneNumber" name="receiverPhoneNumber" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="ReceiverName">Receiver's Name:</label>
+                    <input type="text" class="form-control" id="receivername" name="receivername" required>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-4">
+            <h3>Address Information</h3>
+            <form id="buyForm">
+                <!-- Address Information Fields (e.g., Country, State) -->
+                <div class="form-group">
+                    <label for="areaTown">Area/Town:</label>
+                    <input type="text" class="form-control" id="areaTown" name="areaTown" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="country">Country:</label>
+                    <input type="text" class="form-control" id="country" name="country" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="state">State:</label>
+                    <input type="text" class="form-control" id="state" name="state" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="village">Village:</label>
+                    <input type="text" class="form-control" id="village" name="village" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="pincode">Pincode:</label>
+                    <input type="text" class="form-control" id="pincode" name="pincode" required>
+                </div>
+            </form>
+        </div>
+        
+        <!-- Payment Method -->
+        <div class="col-md-4">
+            <h3>Payment Method</h3>
+            <form id="buyForm">
+                <!-- Payment Method Fields (e.g., Payment Options) -->
+                <div class="btn-group-vertical" role="group">
+                    <button type="button" class="btn btn-outline-secondary" onclick="selectPaymentMethod('netbanking')">Netbanking</button>
+                    <button type="button" class="btn btn-outline-secondary" onclick="selectPaymentMethod('upi')">UPI</button>
+                    <button type="button" class="btn btn-outline-secondary" onclick="selectPaymentMethod('card')">Card</button>
+                    <button type="button" class="btn btn-outline-secondary" onclick="selectPaymentMethod('scanner')">Scanner</button>
+                    <!-- Add a new payment method -->
+                    <button type="button" class="btn btn-outline-secondary" onclick="selectPaymentMethod('cash')">Cash on Delivery</button>
+                </div>
+                <input type="hidden" id="selectedPaymentMethod" name="selectedPaymentMethod">
+            </form>
+        </div>
+
+        <!-- Confirm Order Button -->
+        <div class="col mt-4 ">
+            <div class="col text-center">
+                <button type="button" class="btn btn-success" onclick="confirmOrder()">Confirm Order</button>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
 </body>
 </html>

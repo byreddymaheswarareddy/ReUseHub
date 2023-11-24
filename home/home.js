@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <h5 class="card-title">${product.name}</h5>
                     <p class="card-text">${product.description}</p>
                     <p class="card-text">${product.price}</p>
-                    <a href="#" class="btn btn-primary">Buy</a>
+                    <a href="../cart/cart.html" class="btn btn-primary">Buy</a>
                     <a href="../product-details/product-details.html" class="btn btn-primary">View Details</a>
                 </div>
             </div>
